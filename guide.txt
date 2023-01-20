@@ -2,4 +2,6 @@
 Commands
   > npm add -g @nestjs/cli
   > nest new <project_name>
-  
+  > nest generate controller <name>
+  > nest generate module <name>
+  > nest generate resource
