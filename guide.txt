@@ -1,0 +1,5 @@
+
+Commands
+  > npm add -g @nestjs/cli
+  > nest new <project_name>
+  
