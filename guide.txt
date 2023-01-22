@@ -5,3 +5,8 @@ Commands
   > nest generate controller <name>
   > nest generate module <name>
   > nest generate resource
+
+  ---Docker
+  > docker compose up -d
+  > docker compose exec app bash 
+  
