@@ -18,7 +18,7 @@ describe('Tweet Schema tests', () => {
   let connection: mongoose.Mongoose
 
   beforeAll(async () => {
-    connection = await mongoose.connect('mongodb://root:root@localhost:27017/tweet-test?authSource=admin')
+    connection = await mongoose.connect('mongodb://root:root@localhost:27017/tweet-entity-test?authSource=admin')
   })
 
   afterAll(async () => {

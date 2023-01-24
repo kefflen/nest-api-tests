@@ -1,5 +1,7 @@
 import { Prop, Schema, SchemaFactory } from '@nestjs/mongoose'
 
+export type TweetDocument = Tweet & Document
+
 export type tweetProps = {
   content: string
   screenName: string
